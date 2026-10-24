@@ -47,7 +47,7 @@ def delete_product(connection, product_id): # this function delete the product f
 
 if __name__ == "__main__":    # if and main method is used to test the function and check if the connection to the database is successful or not
     connection = get_sql_connection()        #they delete product
-    print(delete_product(connection, 15)) 
+    print(delete_product(connection, 14)) 
    
    
    # print(insert_new_product(connection,{   #they add produt
